@@ -8,6 +8,38 @@ header {
 	padding: 30px 20px;
 }
 
+footer {
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name {
+	font-weight: 700;
+	color: #F15B31;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
 h1, h2, nav {
 	text-transform: uppercase;
 }
@@ -17,19 +49,25 @@ nav {
 	padding: 20px 0px;
 }
 
-a {
+nav a {
+	text-decoration: none;
 	font-family: Raleway;
 	color: white;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-bottom-color: white;
 }
 
 main {
 	text-align: center;
 	width: 850px;
-	margin: 35px auto;
+	margin: 25px auto;
 }
 
 h1 {
@@ -47,6 +85,7 @@ h2 {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
+	padding: 20px;
 }
 
 p {
